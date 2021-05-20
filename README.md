@@ -89,12 +89,12 @@ To
 
 ## 🐛 Issues
 
-If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/loongjs/babel-plugin-transform-loong/issues).
+If you find a bug, please file an issue on [our issue tracker on GitHub](https://github.com/loong-js/babel-plugin-transform-loong/issues).
 
 ## 🏁 Changelog
 
-Changes are tracked in the [CHANGELOG.md](https://github.com/loongjs/babel-plugin-transform-loong/blob/master/CHANGELOG.md).
+Changes are tracked in the [CHANGELOG.md](https://github.com/loong-js/babel-plugin-transform-loong/blob/master/CHANGELOG.md).
 
 ## 📄 License
 
-React Keep Alive is available under the [MIT](https://github.com/loongjs/babel-plugin-transform-loong/blob/master/LICENSE) License.
+React Keep Alive is available under the [MIT](https://github.com/loong-js/babel-plugin-transform-loong/blob/master/LICENSE) License.
