@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-transform-loong",
+  "version": "0.0.1",
+  "description": "Convert LSX file to JSX",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "Shen Chang",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2"
+  }
+}
