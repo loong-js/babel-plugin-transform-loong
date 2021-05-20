@@ -1,15 +1,11 @@
-import { createUtils } from './utils';
+import {
+  getTypeParams,
+  processForeach,
+  processSlot,
+  replaceLabel,
+} from './utils';
 
-export default ({
-  types
-}) => {
-  const {
-    getTypeParams,
-    processForeach,
-    processSlot,
-    replaceLabel,
-  } = createUtils(types);
-
+export default () => {
   const visitor = {
     StringLiteral(path) {
       let isVariableProperty = false;
