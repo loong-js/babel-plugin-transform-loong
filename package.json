@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-loong",
+  "name": "@loong/babel-plugin-transform-loong",
   "version": "0.0.3",
   "description": "Convert LSX file to JSX",
   "main": "lib/index.js",
