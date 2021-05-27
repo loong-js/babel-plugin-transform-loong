@@ -36,9 +36,9 @@ To
 
 ```jsx
 <Condition>
-  <If condition={data > 1}>This condition 1</if>
-  <Elseif condition={data === 2}>This condition 2</Elseif>
-  <Else>This condition 3</Else>
+  <Condition.If condition={data > 1}>This condition 1</Condition.If>
+  <Condition.Elseif condition={data === 2}>This condition 2</Condition.Elseif>
+  <Condition.Else>This condition 3</Condition.Else>
 </Condition>
 ```
 
