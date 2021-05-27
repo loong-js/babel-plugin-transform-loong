@@ -24,9 +24,9 @@ export default () => {
       }
     },
     JSXIdentifier(path) {
-      replaceLabel(path, 'if', 'If');
-      replaceLabel(path, 'elseif', 'Elseif');
-      replaceLabel(path, 'else', 'Else');
+      replaceLabel(path, 'if', 'Condition.If');
+      replaceLabel(path, 'elseif', 'Condition.Elseif');
+      replaceLabel(path, 'else', 'Condition.Else');
       replaceLabel(path, 'condition', 'Condition');
       replaceLabel(path, 'foreach', 'Foreach');
     },
@@ -35,7 +35,7 @@ export default () => {
         processForeach(path);
         processSlot(path);
       }
-    }
+    },
   };
 
   return {
