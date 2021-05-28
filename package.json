@@ -1,6 +1,6 @@
 {
   "name": "@loong-js/babel-plugin-transform-loong",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Convert LSX file to JSX",
   "main": "lib/index.js",
   "scripts": {
