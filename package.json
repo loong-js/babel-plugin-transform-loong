@@ -15,15 +15,13 @@
   ],
   "author": "Shen Chang",
   "license": "MIT",
-  "dependencies": {
-    "@babel/types": "^7.14.2"
-  },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2"
   },
   "peerDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.12.13"
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/types": "^7.14.2"
   }
 }

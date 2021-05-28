@@ -100,4 +100,4 @@ Changes are tracked in the [CHANGELOG.md](https://github.com/loong-js/babel-plug
 
 ## 📄 License
 
-React Keep Alive is available under the [MIT](https://github.com/loong-js/babel-plugin-transform-loong/blob/master/LICENSE) License.
+`babel-plugin-transform-loong` is available under the [MIT](https://github.com/loong-js/babel-plugin-transform-loong/blob/master/LICENSE) License.
