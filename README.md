@@ -1,4 +1,4 @@
-# babel-plugin-transform-loong
+# @loong-js/babel-plugin-transform-loong
 
 Use Loong syntax to write react components.
 
@@ -7,14 +7,17 @@ Use Loong syntax to write react components.
 ## 📦 Installation
 
 ```bash
-npm install --save-dev babel-plugin-syntax-jsx babel-plugin-transform-loong
+npm install --save-dev babel-plugin-syntax-jsx @loong-js/babel-plugin-transform-loong
 ```
 
 Add the following line to your .babelrc file:
 
 ```json
 {
-  "plugins": ["@babel/plugin-syntax-jsx", "babel-plugin-transform-loong"]
+  "plugins": [
+    "@babel/plugin-syntax-jsx",
+    "@loong-js/babel-plugin-transform-loong"
+  ]
 }
 ```
 
